@@ -1,4 +1,4 @@
-
+import Home from "./Home";
 
 const Header = () => {
     return (
@@ -11,8 +11,8 @@ const Header = () => {
             <li className=" mx-44 my-3 "><button onclick={onclick} className="cursor-pointer  hover:bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white font-bold my-1 px-5 rounded-full ">login</button> </li>
         </ul>
         <div className=" my-3 ">
-        <img  className=" fixed bottom-4 left-4  p-2 rounded-[100%]   hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-300 focus:outline-none h-[130px] my-[500px]  "
-src="https://i.pinimg.com/564x/99/fa/00/99fa00f616d291c75837038dbaa493b0.jpg" 
+        <img  className=" fixed bottom-4 left-4  p-2 rounded-full     hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-300  h-[130px] my-[500px]  "
+src="https://cdn.pixabay.com/photo/2023/08/16/03/09/lion-8193176_1280.png" 
 alt="Lion" />
         </div>
         </div>
